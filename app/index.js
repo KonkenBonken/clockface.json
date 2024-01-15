@@ -6,6 +6,11 @@ import * as hrm from "./simple/hrm";
 const TPaneText = document.getElementById("TPaneText");
 TPaneText.text = "clockface.json";
 
+const themes = ['Default', 'GitHub', 'Kimbie', 'Solarized', 'Tomorrow'],
+    theme = themes[0]; //TODO: Choose by user preference
+
+document.body.setAttribute('data-color', theme);
+
 /**
  * Datetime code
  */
