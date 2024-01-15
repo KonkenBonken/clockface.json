@@ -1,3 +1,8 @@
+:root {
+  --clr-props: #9cdcfe;
+  --clr-values: #ce9178;
+}
+
 /*noinspection ALL*/
 #screen {
   viewport-fill: #252526;
@@ -99,7 +104,7 @@
 .CPaneCodeBlue {
   font-family: System-Bold;
   text-length: 15;
-  fill: #9cdcfe;
+  fill: var(--clr-props);
   font-size: 21;
   text-anchor: start;
 }
@@ -108,7 +113,7 @@
 .CPaneCodeOrange {
   font-family: System-Bold;
   text-length: 20;
-  fill: #ce9178;
+  fill: var(--clr-values);
   font-size: 21;
   text-anchor: start;
 }
@@ -179,7 +184,7 @@
 .CPaneCodeBlueSolo {
   font-family: System-Bold;
   text-length: 15;
-  fill: #9cdcfe;
+  fill: var(--clr-props);
   font-size: 38;
   text-anchor: start;
 }
@@ -188,7 +193,7 @@
 .CPaneCodeOrangeSolo {
   font-family: System-Bold;
   text-length: 20;
-  fill: #ce9178;
+  fill: var(--clr-values);
   font-size: 38;
   text-anchor: start;
 }
