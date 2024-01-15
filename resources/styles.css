@@ -1,32 +1,29 @@
-:root {
+/*noinspection ALL*/
+#screen {
   --clr-props: #9cdcfe;
   --clr-values: #ce9178;
+  viewport-fill: #252526;
+  viewport-fill: #2d2d30;
 }
 
-body[data-color=GitHub] {
+#screen[data-color=GitHub] {
   --clr-props: #7ee787;
   --clr-values: #a5d6ff;
 }
 
-body[data-color=Kimbie] {
+#screen[data-color=Kimbie] {
   --clr-props: #889b4a;
   --clr-values: #f79a32;
 }
 
-body[data-color=Solarized] {
+#screen[data-color=Solarized] {
   --clr-props: #859900;
   --clr-values: #2aa198;
 }
 
-body[data-color=Tomorrow] {
+#screen[data-color=Tomorrow] {
   --clr-props: #ffeead;
   --clr-values: #d1f1a9;
-}
-
-/*noinspection ALL*/
-#screen {
-  viewport-fill: #252526;
-  viewport-fill: #2d2d30;
 }
 
 /*noinspection ALL*/
